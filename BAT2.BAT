@@ -1,0 +1,11 @@
+@ECHO OFF
+
+set IN_FILE=%1
+set OUT_FILE=%2
+
+SET TIME = time /t
+SET DATE = date /t
+ECHO %DATE% %TIME% >> %OUT_FILE%
+
+EXIT /B 7
+rem ECHO %COMPUTERNAME%
